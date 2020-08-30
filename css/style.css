@@ -7,16 +7,46 @@
     --background-footer: #2F303A;
     --icon-text:#757575;
 }
-/* body {
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url(../shrift/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    src: url(../shrift/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url(../shrift/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    font-weight: 900;
+    src: url(../shrift/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    font-weight: 700;
+    src: url(../shrift/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    font-weight: 900;
+    src: url(../shrift/Raleway-Black.ttf);
+}
+body {
     font-family: Roboto;
     margin: 0px;
     overflow: none;
-} */
+}
 /* модальное окно */
 
 /*  */
 
-/* footer {
+footer {
     background-color: #2F303A;
 }
 ul {
@@ -53,28 +83,28 @@ h1, h2, h3 {
     margin-bottom: 10px;
 
     color: var(--text-subtitle-color);
-} */
+}
 /* Contact */
-/* .contact{
+.contact{
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: currentColor;
-} */
+}
 /* logo */
-/* .web-logo{
+.web-logo{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     margin-right: 85px;
-} */
+}
 
 /* Шапка */
-/* .header {
+.header {
     border-bottom: 1px solid #ECECEC;
 }
 .main-nav {
@@ -151,10 +181,10 @@ h1, h2, h3 {
 .header-text:hover,
 .header-text:focus {
     color: var(--text-header-hover-color);
-} */
+}
 
 /* hero */
-/* .hero {
+.hero {
     background: #F5F4FA;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/phon-header.jpg);
     background-repeat: no-repeat;
@@ -195,7 +225,7 @@ h1, h2, h3 {
     background-color: var(--background-butten-color);
     color: #ffffff;
     cursor: pointer;
-} */
+}
 /* Иконки */
 .icon-section {
     background-color: #FFFFFF;
